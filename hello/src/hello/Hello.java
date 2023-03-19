@@ -3,12 +3,11 @@ package hello;
 import java.util.Scanner;
 
 public class Hello {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String str, sword;
-		Scanner sc = new Scanner (System.in);
-		str = sc.nextLine (); // Read a line
-		System.out.println ("str = " + str);
-
+		System.out.println("1. Add Member");
+		System.out.println("2. Delete Member");
+		System.out.println("3. Edit Date");
+		System.out.println("4. View Date Remaining");
+		System.out.println("5. Exit");
+	}
 }
